@@ -20,6 +20,7 @@ import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 
 import './App.css';
+import "./stylesheet/style.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 

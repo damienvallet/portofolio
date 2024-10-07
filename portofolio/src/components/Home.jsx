@@ -12,12 +12,16 @@ import React from 'react';
 
 function Home() {
     return (
-        <div>
-            <h1>Home</h1>
-            <p>
-                Welcome to my portofolio website!
-            </p>
-        </div>
+        // <div className='home'>
+            <div className='container-fluid home'>
+                <div className='col'>
+                    <div className='row'>
+                        <h1>Damien Vallet</h1>
+                        <h2>Sound Design</h2>
+                    </div>
+                </div>
+            </div>
+        // </div>
     );
 }
 

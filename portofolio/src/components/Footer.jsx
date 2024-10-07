@@ -13,8 +13,8 @@ import React from 'react';
 function Footer() {
     return (
         <footer className="footer">
-            <div className="container">
-                <span className="text-muted">Created by Damien Vallet</span>
+            <div className="container-fluid">
+                <span >Created by Damien Vallet</span>
             </div>
         </footer>
     );
