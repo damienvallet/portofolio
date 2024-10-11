@@ -13,11 +13,11 @@ import React from 'react';
 function Home() {
     return (
         // <div className='home'>
-            <div className='container-fluid home'>
+            <div className='container container-fluid home'>
                 <div className='col'>
                     <div className='row'>
                         <h1>Damien Vallet</h1>
-                        <h2>Sound Design</h2>
+                        <h2>Sound Design / Computer Science</h2>
                     </div>
                 </div>
             </div>
