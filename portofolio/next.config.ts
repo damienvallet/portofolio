@@ -1,15 +1,9 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
-
+  output: 'export',
+  basePath: '/portofolio',
 };
-
-module.exports = {
-  experimental: {
-    optimizePackageImports: ['react-bootstrap'],
-  },
-}
 
 export default nextConfig;
 
