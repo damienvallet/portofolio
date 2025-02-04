@@ -11,19 +11,19 @@
 "use client";
 import React from 'react';
 
-function Home() {
-    return (
-        // <div className='home'>
-            <div className='container container-fluid home'>
-                <div className='col'>
-                    <div className='row'>
-                        <h1>Damien Vallet</h1>
-                        <h2>Audio Creative</h2>
-                    </div>
-                </div>
-            </div>
-        // </div>
-    );
+const Home = () => {
+  return (
+    <div className="container container-fluid home">
+      <div className="col">
+        <div className="row">
+          <h1>
+            <b>Damien Vallet</b>
+          </h1>
+          <h2>Audio Creative</h2>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Home;

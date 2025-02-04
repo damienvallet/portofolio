@@ -19,8 +19,8 @@ function Footer() {
         <footer className="footer">
             <div className="container container-fluid">
                 <div className="row p-2">
-                    <div className="col d-flex justify-content-center align-items-center">
-                        <p>© 2025 Damien Vallet</p>
+                    <div className="col d-flex justify-content-center align-items-end bottom">
+                        <p className="copyright">© 2025 Damien Vallet</p>
                     </div>
                     <div className="col d-flex justify-content-center align-items-center">
                         <a href="https://www.linkedin.com/in/damien-vallet-84464195/">
