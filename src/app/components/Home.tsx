@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div className="container container-fluid home">
       <div className="col">
-        <div className="row">
+      <div className="row justify-content-center align-items-center text-center">
           <h1>
             <b>Damien Vallet</b>
           </h1>

@@ -11,36 +11,36 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #ffffff !important;
+  color: #F2F2F2 !important;
   text-align: left;
   background-image: radial-gradient(#ffffff0a, --bs-dark);
 }
 
 nav {
   background-color: #2A2438 !important;
-  color: #DBD8E3 !important;
+  color: #F2F2F2 !important;
 }
 
 .navbar {
   position: fixed;
-  background-color: #ffffff !important;
+  background-color: #2A2438 !important;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
-  /* height: 100px; */
-  color: #DBD8E3 !important;
+  /* height: 140px; */
+  color: #F2F2F2 !important;
   text-align: left;
   font-size: 1rem !important;
 }
 
 .home {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
-    color: #1d1c1d;
+    /* background-color: #F2F2F2; */
+    color: #2A2438;
     padding: 10rem;
     text-align: center;
     height: 100vh;
@@ -50,13 +50,18 @@ nav {
     font-family: Garamond, 'Times New Roman', Times, serif; 
   }
 
+  .home h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+
 .footer {
   position: absolute;
-  background-color: #ffffff;
-  border-color: #5926be;
+  background-color: #2A2438;
+  border-color: #F2F2F2;
   border-radius: 2px;
   text-align: center;
-  color: #151516;
+  color: #F2F2F2;
   font-size: 1.2rem;
   /* height: auto; */
   width: 100%;
@@ -75,8 +80,9 @@ nav {
   }
 
 .navbar-brand {
-    color: #161616 !important;
+    color: #F2F2F2 !important;
     padding-left: 20px;
+    font-family: Garamond, 'Times New Roman', Times, serif;
   }
 
   .nav-link:hover {
@@ -88,7 +94,7 @@ nav {
   }
 
   .social-icons {
-    color: #D9A441 !important;
+    color: #F2F2F2 !important;
     height: 25px;
     width: 25px;
   }
