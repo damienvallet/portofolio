@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "Damien Vallet's portfolio",
+  title: "Damien Vallet - Audio Creative",
+  description: "Damien Vallet's portfolio, Sound Designer",
 };
 
 export default function RootLayout({
@@ -24,6 +24,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="keywords"
+          content="Damien Vallet, Portofolio, Audio Product Design, Programmation"
+        />
+        {/* og metatag */}
+        <meta
+          property="og:title"
+          content="Damien Vallet - Audio Product Designer - Portofolio"
+        />
+        <meta property="og:description" content="Portofolio Damien Vallet" />
+        <meta
+          property="og:url"
+          content="https://damienvallet.github.io/portofolio/"
+        />
+        {/* favicon */}
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
