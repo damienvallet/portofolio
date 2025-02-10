@@ -1,0 +1,75 @@
+"use client";
+
+/**
+ * File Name: Home.tsx
+ * Description: Main App component
+ * Author: Damien Vallet
+ * Version: 1.0
+ * Date: 2024
+ * License:
+ * Language: JavaScript
+ */
+
+import React, { useState, useEffect } from "react";
+
+const taglines = [
+  "Audio Creative",
+  "Sound Designer",
+  "Musician",
+  "Sound Engineer",
+  "Audio Product Designer",
+  "Programmer",
+];
+
+const getRandomTagline = () => {
+  return taglines[Math.floor(Math.random() * taglines.length)];
+};
+
+const HomePage = () => {
+  const [tagline, setTagline] = useState(getRandomTagline());
+  const [fade, setFade] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setFade(false);
+      setTimeout(() => {
+        setTagline(getRandomTagline());
+        setFade(true);
+      }, 1000); // Duration of the fade-out effect
+    }, 11000); // Change tagline every 11 seconds (10s + 1s fade-out)
+
+    return () => clearInterval(interval); // Cleanup interval on component unmount
+  }, []);
+
+  return (
+    <div className="d-flex flex-column container container-fluid home">
+      <div className="d-flex row justify-content-center align-items-center">
+        <div className="col">
+          <h1>
+            <b>Damien Vallet</b>
+          </h1>
+          <div className="d-flex  row justify-content-center align-items-center">
+            <div className="col">
+              <h2 className={`tagline ${fade ? "fade-in" : "fade-out"}`}>
+                <b suppressHydrationWarning>{tagline}</b>
+              </h2>
+            </div>
+          </div>
+          <div className="d-flex row justify-content-center align-items-center">
+            <div className="col"></div>
+            <div className="d-flex col biography">
+              <p>
+                <b>About me : </b>
+                <br />
+                I&apos;m a sound activist with over a decade of experience in
+                the audio software industry.
+              </p>
+            </div>
+            <div className="col"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default HomePage;

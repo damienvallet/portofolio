@@ -13,27 +13,26 @@ import React from 'react';
 // 
 import { FaGithub, FaLinkedin, FaMastodon } from "react-icons/fa";
 
-
 const Footer = () => {
     return (
-        <footer className="footer ">
-            <div className="container container-fluid ">
-                <div className="row justify-content-center p-2 ">
-                    <div className="col d-flex justify-content-start align-items-end bottom">
-                        <p className="copyright">© 2025 Damien Vallet</p>
-                    </div>
-                    <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-                        <li className="col d-flex justify-content-end">
+        <footer className="footer d-flex justify-content-between">
+            <div className=" d-flex row p-2 ">
+                <div className="d-flex col align-items-end bottom">
+                    <p className="copyright">© {new Date().getFullYear()} Damien Vallet</p>
+                </div>
+                <div className="d-flex col p-2 justify-content-end align-items-end bottom">
+                    <ul className="nav col-md-4  list-unstyled">
+                        <li className="col ">
                             <a href="https://www.linkedin.com/in/damien-vallet-84464195/">
                                 <FaLinkedin className="social-icons" />
                             </a>
                         </li>
-                        <li className="col d-flex justify-content-end" >
+                        <li className="col " >
                             <a href="https://github.com/damienvallet">
                                 <FaGithub className="social-icons" />
                             </a>
                         </li>
-                        <li className="col d-flex justify-content-end">
+                        <li className="col ">
                             <a href="https://mastodon.social/@darladada">
                                 <FaMastodon className="social-icons" />
                             </a>

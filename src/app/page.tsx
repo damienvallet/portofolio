@@ -12,7 +12,7 @@
 import React from 'react';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Home from './components/Home';
+import Home from './components/HomePage';
 // import AboutMe from './components/AboutMe';
 // import Projects from './components/Projects';
 // import Resume from './components/Resume';
