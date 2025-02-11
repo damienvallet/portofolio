@@ -42,7 +42,7 @@ export default function RootLayout({
         {/* favicon */}
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} text-center`}>
         {children}
       </body>
     </html>
