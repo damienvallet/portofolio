@@ -45,10 +45,10 @@ const HomePage = () => {
     <div className="d-flex flex-column container-fluid home">
       <div className="row justify-content-center align-items-center">
         <div className="col">
-          <h1>
-            <b>Damien Vallet</b>
+          <h1 className="title text-center font-weight-bold">
+            Damien Vallet
           </h1>
-          <div className="d-flex  row justify-content-center align-items-center">
+          <div className="d-flex row justify-content-center align-items-center">
             <div className="col">
               <h2 className={`tagline ${fade ? "fade-in" : "fade-out"}`}>
                 <b suppressHydrationWarning>{tagline}</b>
@@ -56,7 +56,7 @@ const HomePage = () => {
             </div>
           </div>
           <div className="d-flex p-3 justify-content-center align-items-center">
-              <p className="biography mx-auto text-center text-justify">
+              <p className="biography mx-auto text-center">
                 <b>About me : </b>
                 <br />
                 I&apos;m a sound activist with over a decade of experience in
