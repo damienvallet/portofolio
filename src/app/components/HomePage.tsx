@@ -42,8 +42,8 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="d-flex flex-column container container-fluid home">
-      <div className="d-flex row justify-content-center align-items-center">
+    <div className="d-flex flex-column container-fluid home">
+      <div className="row justify-content-center align-items-center">
         <div className="col">
           <h1>
             <b>Damien Vallet</b>
@@ -55,17 +55,13 @@ const HomePage = () => {
               </h2>
             </div>
           </div>
-          <div className="d-flex row justify-content-center align-items-center">
-            <div className="col"></div>
-            <div className="d-flex col biography">
-              <p>
+          <div className="d-flex p-3 justify-content-center align-items-center">
+              <p className="biography mx-auto text-center text-justify">
                 <b>About me : </b>
                 <br />
                 I&apos;m a sound activist with over a decade of experience in
                 the audio software industry.
               </p>
-            </div>
-            <div className="col"></div>
           </div>
         </div>
       </div>
