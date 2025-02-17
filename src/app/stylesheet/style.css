@@ -17,16 +17,15 @@ body {
 }
 
 nav {
-  background-color: #F2F2F2 !important;
-  color: #2A2438 !important;
-
+  background-color: #2A2438 !important;
+  color: #F2F2F2 !important;
 }
 
 .navbar {
   position: fixed;
-  background-color: #F2F2F2 !important;
+  background-color: #2A2438 !important;
   z-index: 1030;
-  color: #2A2438 !important;
+  color: #F2F2F2 !important;
   text-align: left;
   font-size: 1em !important;
 }
@@ -72,7 +71,7 @@ nav {
   }
 
 .navbar-brand {
-    color: #2A2438 !important;
+    color: #F2F2F2 !important;
     padding-left: 2rem;
     font-family: Garamond, 'Times New Roman', Times, serif;
   }
