@@ -42,7 +42,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <main className="container-fluid home d-flex flex-column justify-content-center align-items-center text-center">
+    <section className="container-fluid home d-flex flex-column justify-content-center align-items-center text-center">
       <div className="col-12 col-md-8">
         <h1 className="title font-weight-bold">Damien Vallet</h1>
         <h2 className={`tagline ${fade ? "fade-in" : "fade-out"}`}>
@@ -54,7 +54,7 @@ const HomePage = () => {
           I&apos;m a sound activist with over a decade of experience in the audio software industry.
         </p>
       </div>
-    </main>
+    </section>
   );
 };
 export default HomePage;
