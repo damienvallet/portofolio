@@ -13,7 +13,7 @@ import Link from 'next/link'
 
 function NavBar() {
     return (
-        <nav className="navbar navbar-expand-md fixed-top" role="navigation">
+        <nav className="navbar navbar-expand-md fixed-top border" role="navigation">
             <div className="container-fluid navbar">
                 <Link href="/" className="navbar-brand">DV</Link>
                 {/* <Link className="navbar-brand" to="/">Damien Vallet</Link> */}
