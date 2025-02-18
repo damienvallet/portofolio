@@ -44,7 +44,7 @@ const HomePage = () => {
   return (
     <section className="container-fluid home d-flex flex-column justify-content-center align-items-center text-center">
       <div className="col-12 col-md-8">
-        <h1 className="title font-weight-bold">Damien Vallet</h1>
+        <h1 className="title font-weight-bold ">Damien Vallet</h1>
         <h2 className={`tagline ${fade ? "fade-in" : "fade-out"}`}>
           <b suppressHydrationWarning>{tagline}</b>
         </h2>

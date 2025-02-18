@@ -1,17 +1,19 @@
 /**
- * File Name: App.js
+ * File Name: Footer.jsx
  * Description: Main App component
  * Author: Damien Vallet
  * Version: 1.0
  * Date: 2024
  * License: 
- * Language: JavaScript
+ * Language: JavaScript (React)
  */
 
 import React from 'react';
 
 // 
-import { FaGithub, FaLinkedin, FaMastodon } from "react-icons/fa";
+import {FaGithub, FaLinkedin, FaMastodon } from "react-icons/fa";
+import { GrMail } from "react-icons/gr";
+const mail = "mailto:d_vallet@hotmail.com";
 
 const Footer = () => {
     return (
@@ -22,6 +24,11 @@ const Footer = () => {
                 </div>
                 <div className="d-flex col p-2 justify-content-end align-items-end bottom">
                     <ul className="nav col-md-4  list-unstyled">
+                        <li className="col ">
+                            <a href={mail}>
+                                <GrMail className="social-icons"/>
+                            </a>
+                        </li>
                         <li className="col ">
                             <a href="https://www.linkedin.com/in/damien-vallet-84464195/">
                                 <FaLinkedin className="social-icons" />
