@@ -48,8 +48,9 @@ nav {
   }
 
   .title {
-    font-size: 3rem;
+    font-size: 89px;
     margin-bottom: 1rem;
+    font-family: Garamond, 'Times New Roman', Times, serif
   }
 
 .footer {
@@ -98,11 +99,16 @@ nav {
     align-self: flex-end;
   }
 
-  .biography  {
+  .biography {
     font-family: Garamond, 'Times New Roman', Times, serif; 
     width: 60%;
     font-size: 1em;
     margin-top: 1rem;
+  }
+
+  .biography b{
+    font-size: 21px;
+    font-weight: bold;
   }
 
   .fade-in {
@@ -113,4 +119,11 @@ nav {
   .fade-out {
     opacity: 0;
     transition: opacity 1s ease-out;
+  }
+
+  .tagline{
+    font-size:37px;
+    font-weight: bold;
+    font-family: Garamond, 'Times New Roman', Times, serif; 
+    margin-top: 1rem;
   }
