@@ -18,9 +18,9 @@ function Projects() {
                 <div className="container p-5 custom-gradient ">
                     <div className="row">
                         <div className="col">
-                            <h2>
-                                <span className="title"> Projets </span>
-                            </h2>
+                            <h4>
+                                <span className="subsection-title"> Projects </span>
+                            </h4>
                         </div>
                     </div>
                     <div className="row d-flex justify-content-center align-items-center ">

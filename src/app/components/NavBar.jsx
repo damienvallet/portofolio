@@ -15,10 +15,10 @@ const navItems = {
       className: 'navbar-brand',
       name: 'DV',
     },
-    // '/projects': {
-    //   className: 'nav-item nav-custom-link',
-    //   name: 'Projects',
-    // },
+    '/projects': {
+      className: 'nav-item nav-custom-link',
+      name: 'Projects',
+    },
 }
 
 function NavBar() {

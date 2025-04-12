@@ -54,6 +54,12 @@ nav {
     font-family: Garamond, 'Times New Roman', Times, serif
   }
 
+  .subsection-title {
+    font-size: 45px;
+    margin-bottom: 1rem;
+    font-family: Garamond, 'Times New Roman', Times, serif
+  }
+
 .footer {
   position: absolute;
   background-color: #2A2438;
@@ -158,4 +164,9 @@ nav {
     margin: 10px;
     /* background-color: #2A2438; */
     border-radius: 0 0 10px 10px;
+  }
+
+  #projets{
+    font-family: Garamond, 'Times New Roman', Times, serif; 
+    color: #2A2438 !important;
   }
