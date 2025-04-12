@@ -23,6 +23,7 @@ nav {
 
 .navbar {
   position: fixed;
+  align-items: center; 
   background-color: #2A2438 !important;
   z-index: 1030;
   color: #F2F2F2 !important;
@@ -69,8 +70,12 @@ nav {
     width: 100%;
   }
 
-.nav-link {
+.nav-custom-link { 
     color: #DBD8E3 !important;
+    font-size: 1.1em !important;
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    padding: 1rem !important;
+    text-decoration: none !important;
   }
 
 .navbar-brand {
@@ -79,7 +84,7 @@ nav {
     font-family: Garamond, 'Times New Roman', Times, serif;
   }
 
-  .nav-link:hover {
+  .nav-custom-link:hover {
     color: #D9A441 !important;
   }
 

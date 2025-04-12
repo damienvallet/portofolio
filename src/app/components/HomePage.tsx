@@ -11,7 +11,6 @@
  */
 
 import React, { useState, useEffect } from "react";
-// import AudioPlayer from "./AudioPlayer";
 
 const taglines = [
   "Audio Creative",
@@ -56,9 +55,6 @@ const HomePage = () => {
             I&apos;m a sound activist with over a decade of experience in the audio software industry.
           </p>
         </div>
-        {/* <div className="col-12 col-md-8">
-        <AudioPlayer />
-        </div> */}
       </section>
     </>
   );
