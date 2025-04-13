@@ -1,10 +1,9 @@
 /**
 * File Name: NavBar.jsx
-* Description: Composant qui gère la barre pour naviguer entre les versions
+* Description: Navigation bar component for the website.
 * Author: Damien Vallet
 * Version: 1.0
 * Date: 2024
-* License: Created for UOR course
 * Language: JavaScript
 */
 

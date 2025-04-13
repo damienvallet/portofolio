@@ -1,6 +1,6 @@
 /**
- * File Name: App.js
- * Description: Main App component
+ * File Name: Resume.jsx
+ * Description: Resume component
  * Author: Damien Vallet
  * Version: 1.0
  * Date: 2024
@@ -31,7 +31,7 @@ function Resume() {
                     </p>
                     <p>
                         I've always been engaged in human rights and social justice issues, and I am particularly involved in the cancer community and the right to die with dignity. I'm also the father of a child with dwarfism so I am engaged in the fight against discrimination and for the rights of people with disabilities.
-                        I'm an elected member of the city council of my hometown, where I work to improve the quality of life for all citizens. I'm particularly engaged in issues related to food security, the environment, and citizen participation. I trulybelieve that local politics is the best place to make a difference.
+                        I'm an elected member of the city council of my hometown, where I work to improve the quality of life for all citizens. I'm particularly engaged in issues related to food security, the environment, and citizen participation. I truly believe that local politics is the best place to make a difference.
                     </p>
                     <p>
                         I'm committed to make a positive impact in the world, and I believe that social change comes from the bottom up. I am convinced that we can all make a difference, and I am determined to do my part.
