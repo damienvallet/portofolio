@@ -41,7 +41,7 @@ function Resume() {
             <div className="row p-5">
                 <div className="col p-3">
                     <a
-                        href="../public/DV-CV2025_en.pdf"
+                        href="/DV-CV2025_en.pdf"
                         target="_blank"
                         rel="noreferrer"
                         className="btn btn-primary"
@@ -52,7 +52,7 @@ function Resume() {
                 </div>
                 <div className="col p-3">
                     <a
-                        href="../public/DV-CV2025_en.pdf"
+                        href="/DV-CV2025_fr.pdf"
                         target="_blank"
                         rel="noreferrer"
                         className="btn btn-primary"
