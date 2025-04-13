@@ -28,24 +28,25 @@ function Projects() {
                             <iframe className="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/LHycQ7z5rUE?si=fkmdlyK2lCbW6rwj" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen />
                         </div>
                         <div className="col">
+                            <p>As a <b>Sound Designer</b> for </p>
                             <a
                                 href="https://www.uvi.net/glass-orchestra"
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                Glass Orchestra
                             </a>
                             &nbsp; by UVI Sounds and Software
                         </div>
                     </div>
                     <div className="row d-flex justify-content-center align-items-center ">
                         <div className="col">
+                            <p>As a <b>Sound Designer</b> for </p>
                             <a
                                 href="https://www.uvi.net/en/bass-drums-perc/soul-drums.html"
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                Soul Drums
+                            Soul Drums
                             </a>
                             &nbsp; by UVI Sounds and Software
                         </div>
@@ -58,11 +59,11 @@ function Projects() {
                             <iframe className="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/x4JVg3drMms?si=xGZqecbKc8XgB6ro" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                         </div>
                         <div className="col">
-                            Mc Solaar &nbsp;
+                            As a <b>musician</b> for french artist Mc Solaar &nbsp;
                             <a href="https://youtu.be/x4JVg3drMms?feature=shared">
                                 <em>Les Mirabelles</em>
                             </a>
-                            &nbsp; sur l'album Géopoétique (2017)
+                            &nbsp; on the album <i>Géopoétique</i> (2017)
                         </div>
                     </div>
                 </div>
