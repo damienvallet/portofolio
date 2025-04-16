@@ -5,7 +5,7 @@
  * Description: Main App component
  * Author: Damien Vallet
  * Version: 1.0
- * Date: 2024
+ * Date: 2025
  * License:
  * Language: JavaScript
  */

@@ -28,7 +28,7 @@ function Projects() {
                             <iframe className="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/LHycQ7z5rUE?si=fkmdlyK2lCbW6rwj" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen />
                         </div>
                         <div className="col p-3">
-                            <p>As a <b>Sound Designer</b> for </p>
+                            <p>As a <b>Sound Designer / Script Programmer</b> for </p>
                             <a
                                 href="https://www.uvi.net/glass-orchestra"
                                 target="_blank"
@@ -41,7 +41,7 @@ function Projects() {
                     </div>
                     <div className="row d-flex justify-content-center align-items-center ">
                         <div className="col p-3">
-                            <p>As a <b>Sound Designer</b> for </p>
+                            <p>As a <b>Sound Designer / Script Programmer</b> for </p>
                             <a
                                 href="https://www.uvi.net/en/bass-drums-perc/soul-drums.html"
                                 target="_blank"
