@@ -37,7 +37,7 @@ function Resume() {
                     </p>
                 </div>
             </div>
-            <div className="row p-5">
+            <div className="row p-4">
                 <div className="col p-3 text-center">
                     <a
                         href="/DV-CV2025_en.pdf"

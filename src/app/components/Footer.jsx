@@ -18,7 +18,7 @@ const mail = "mailto:d_vallet@hotmail.com";
 const Footer = () => {
     return (
         <footer className="footer d-flex justify-content-between">
-            <div className=" d-flex row p-2 ">
+            <div className=" d-flex row p-1 ">
                 <div className="d-flex col align-items-end bottom">
                     <p className="copyright">© {new Date().getFullYear()} Damien Vallet</p>
                 </div>
