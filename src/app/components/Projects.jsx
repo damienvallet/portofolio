@@ -15,7 +15,7 @@ function Projects() {
         <>
             {/* section Projets */}
             <section id="projets">
-                <div className="container p-5 custom-gradient ">
+                <div className="container p-2 custom-gradient mt-3 mb-5 p-4">
                     <div className="row p-3">
                         <div className="col">
                             <h4>

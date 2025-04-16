@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * File Name: Home.tsx
+ * File Name: Home.jsx
  * Description: Main App component
  * Author: Damien Vallet
  * Version: 1.0
@@ -25,7 +25,7 @@ const getRandomTagline = () => {
   return taglines[Math.floor(Math.random() * taglines.length)];
 };
 
-const HomePage = () => {
+const Home = () => {
   const [tagline, setTagline] = useState(getRandomTagline());
   const [fade, setFade] = useState(true);
 
@@ -59,4 +59,4 @@ const HomePage = () => {
     </>
   );
 };
-export default HomePage;
+export default Home;
