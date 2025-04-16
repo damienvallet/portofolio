@@ -10,25 +10,15 @@
 
 "use client";
 import React from 'react';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-import Home from './components/Home';
 
 import './App.css';
-import "./stylesheet/style.css";
-import "bootstrap/dist/css/bootstrap.css";
+import Home from './components/Home'; // Import the Home component
 
 const App = () => {
   return (
     <>
       <Home />
     </>
-        // <section className='App'>
-        //   <NavBar />
-          // <Home />
-          // {/* <Projects /> */}
-          // <Footer />
-        // </section>
   );
 }
 
