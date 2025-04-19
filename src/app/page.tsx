@@ -3,7 +3,7 @@
  * Description: Page component for the app.
  * Author: Damien Vallet
  * Version: 1.0
- * Date: 2024
+ * Date: 2025
  * License: 
  * Language: TypeScript
  */
@@ -12,7 +12,7 @@
 import React from 'react';
 
 import './App.css';
-import Home from './components/Home'; // Import the Home component
+import Home from './components/Home';
 
 const App = () => {
   return (

@@ -9,8 +9,6 @@
  */
 
 import React from 'react';
-
-// 
 import {FaGithub, FaLinkedin, FaMastodon } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 const mail = "mailto:d_vallet@hotmail.com";

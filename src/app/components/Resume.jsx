@@ -26,7 +26,6 @@ function Resume() {
                     </p>
                     <p>
                         Naturally, I&apos;ve added to my skills some programming knowledge to sprinkle a bit of magic into my sound design. After surviving an agressive genetic cancer, I made the decision to go back to school and learn programming.
-                        {/* In retrospect, I&apos;ve always had a strong interest in programming. */} I&apos;m currently working around C++ and JUCE. I&apos;m also interested in web development, and I&apos;m currently learning different technologies such as React, Next.js, and Node.js to create web applications (No template has been hurt in the process).
                     </p>
                     <p>
                         I&apos;ve always been engaged in human rights and social justice issues, and I&apos;m particularly involved in the cancer community and the right to die with dignity. I&apos;m also the father of a child with dwarfism so I&apos;m engaged in the fight against discrimination and for the rights of people with disabilities.

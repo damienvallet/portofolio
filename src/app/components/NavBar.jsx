@@ -3,11 +3,10 @@
 * Description: Navigation bar component for the website.
 * Author: Damien Vallet
 * Version: 1.0
-* Date: 2024
+* Date: 2025
 * Language: JavaScript
 */
 
-// import React from 'react';
 import Link from 'next/link'
 const navItems = {
     '/': {
