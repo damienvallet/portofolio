@@ -188,3 +188,11 @@ nav {
   background-color: #2A2438 !important;
   color: #f8bc4c !important;
 }
+
+.signature {
+  font-family: Garamond, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #2A2438 !important;
+  font-size: 1.1em;
+  margin-top: 1rem;
+}
