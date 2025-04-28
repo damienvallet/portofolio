@@ -142,7 +142,7 @@ function Photos() {
                                 .map((pic, index) => (
                                     <figure key={index}>
                                         <Image
-                                            src={`${pic.type}${pic.src}`}
+                                            src={pic.type + pic.src}
                                             className="img-fluid rounded-start p-1"
                                             alt={pic.alt}
                                             width={500}
