@@ -12,55 +12,55 @@ import Image from "next/image";
 
 const pics_info = [
     {
-        type: "/bw/",
-        src: "dv-jesus.jpg",
+        type: "bw",
+        src: "/dv-jesus.jpg",
         alt: "Cantal 2022",
         caption: "Damien Vallet"
     },
     {
-        type: "/bw/",
+        type: "bw",
         src: "dv-clavia.jpg",
         alt: "Immunovision",
         caption: "Damien Vallet"
     },
     {
-        type: "/bw/",
+        type: "bw",
         src: "dv-hightower.jpg",
         alt: "Oudon Castle",
         caption: "Damien Vallet"
     },
     {
-        type: "/bw/",
+        type: "bw",
         src: "dv-shoes.jpg",
         alt: "Shoes 2019",
         caption: "Damien Vallet"
     },
     {
-        type: "/bw/",
+        type: "bw",
         src: "dv-traktor.jpg",
         alt: "Normandy 2019",
         caption: "Damien Vallet"
     },
     {
-        type: "/bw/",
+        type: "bw",
         src: "dv-water.jpg",
         alt: "Loire 2019",
         caption: "Damien Vallet"
     },
     {
-        type: "/bw/",
+        type: "bw",
         src: "dv-hirond.jpg",
         alt: "Hirondelles 2019",
         caption: "Damien Vallet"
     },
     {
-        type: "/bw/",
+        type: "bw",
         src: "dv-eagle.jpg",
         alt: "Pygargue 2020",
         caption: "Damien Vallet"
     },
     {
-        type: "/bw/",
+        type: "bw",
         src: "dv-lioness.jpg",
         alt: "Lioness 2020",
         caption: "Damien Vallet"
@@ -138,11 +138,11 @@ function Photos() {
                     <div className="row d-flex ">
                         <div className="col">
                             {pics_info
-                                .filter((pic) => pic.type === "/bw/")
+                                .filter((pic) => pic.type === "bw")
                                 .map((pic, index) => (
                                     <figure key={index}>
                                         <Image
-                                            src={pic.type + pic.src}
+                                            src={`${pic.type}${pic.src}`}
                                             className="img-fluid rounded-start p-1"
                                             alt={pic.alt}
                                             width={500}
