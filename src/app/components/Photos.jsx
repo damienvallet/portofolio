@@ -13,7 +13,7 @@ import Image from "next/image";
 const pics_info = [
     {
         type: "bw",
-        src: "/dv-jesus.jpg",
+        src: "dv-jesus.jpg",
         alt: "Cantal 2022",
         caption: "Damien Vallet"
     },
@@ -142,7 +142,7 @@ function Photos() {
                                 .map((pic, index) => (
                                     <figure key={index}>
                                         <Image
-                                            src={`${pic.type}${pic.src}`}
+                                            src={pic.src}
                                             className="img-fluid rounded-start p-1"
                                             alt={pic.alt}
                                             width={500}
@@ -162,7 +162,7 @@ function Photos() {
                                 .map((pic, index) => (
                                     <figure key={index}>
                                         <Image
-                                            src={pic.type + pic.src}
+                                            src={pic.src}
                                             className="img-fluid rounded-start p-1"
                                             alt={pic.alt}
                                             width={500}
@@ -180,7 +180,7 @@ function Photos() {
                         <div className="col ">
                             <figure>
                                 <Image
-                                    src="/color/dv-patf.jpg"
+                                    src="/dv-patf.jpg"
                                     className="img-fluid rounded-start"
                                     alt="Air Show"
                                     width={800}
