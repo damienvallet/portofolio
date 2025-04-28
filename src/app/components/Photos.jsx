@@ -180,7 +180,7 @@ function Photos() {
                         <div className="col ">
                             <figure>
                                 <Image
-                                    src="/dv-patf.jpg"
+                                    src="dv-patf.jpg"
                                     className="img-fluid rounded-start"
                                     alt="Air Show"
                                     width={800}
