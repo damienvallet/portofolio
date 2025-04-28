@@ -2,8 +2,8 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/portofolio',
-
+  basePath: '',
+  images: { unoptimized: true } // Disable image optimization
 };
 
 

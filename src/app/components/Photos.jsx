@@ -8,7 +8,7 @@
  * Language: JavaScript
  */
 
-import React from 'react';
+import Image from "next/image";
 
 const pics_info = [
     {
@@ -141,12 +141,13 @@ function Photos() {
                                 .filter((pic) => pic.type === "/bw/")
                                 .map((pic, index) => (
                                     <figure key={index}>
-                                        <img
+                                        <Image
                                             src={`${pic.type}${pic.src}`}
                                             className="img-fluid rounded-start p-1"
                                             alt={pic.alt}
-                                            width="100%"
-                                            height="auto"
+                                            width={500}
+                                            height={300}
+                                            sizes="(min-width: 808px) 50vw, 100vw"
                                             loading="lazy"
                                         />
                                         <figcaption className="figure-caption text-center">
@@ -160,12 +161,12 @@ function Photos() {
                                 .filter((pic) => pic.type === "/color/")
                                 .map((pic, index) => (
                                     <figure key={index}>
-                                        <img
+                                        <Image
                                             src={`${pic.type}${pic.src}`}
                                             className="img-fluid rounded-start p-1"
                                             alt={pic.alt}
-                                            width="100%"
-                                            height="auto"
+                                            width={500}
+                                            height={300}
                                             loading="lazy"
                                         />
                                         <figcaption className="figure-caption text-center">
@@ -178,12 +179,12 @@ function Photos() {
                     <div className="row d-flex ">
                         <div className="col ">
                             <figure>
-                                <img
+                                <Image
                                     src="/color/dv-patf.jpg"
                                     className="img-fluid rounded-start"
                                     alt="Air Show"
-                                    width="100%"
-                                    height="auto"
+                                    width={800}
+                                    height={400}
                                     loading="lazy"
                                 />
                                 <figcaption className="figure-caption text-center">
