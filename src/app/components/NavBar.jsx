@@ -21,6 +21,10 @@ const navItems = {
       className: 'nav-item nav-custom-link',
       name: 'About',
     },
+    '/photos': {
+      className: 'nav-item nav-custom-link',
+      name: 'Photos',
+    },
 }
 
 function NavBar() {
