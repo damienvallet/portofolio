@@ -8,8 +8,6 @@
  * Language: JavaScript
  */
 
-import React from 'react';
-
 function Projects() {
     return (
         <>

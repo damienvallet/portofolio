@@ -1,4 +1,3 @@
-import React from 'react';
 import Photos from "../components/Photos"
 import "../stylesheet/style.css";
 
