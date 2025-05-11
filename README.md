@@ -1,7 +1,7 @@
 Portfolio DV
 ---
 
-this portfolio with Next.js to share some of my work as I learn and grow as a developer.
+this portfolio with Next.js to share my work.
 
 To launch dev server :
 
